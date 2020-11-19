@@ -1,0 +1,137 @@
+Notebook[{Cell[
+BoxData[RowBox[{"Clear","[","A","]"}]],"Input",CellLabel -> "In[22]:= ",
+ExpressionUUID -> "4b6c03a0-7158-4a5d-b3b3-bac88f0b7732"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{RowBox[{"A"," ","="," ",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"2",","," ",RowBox[
+{"-","3"}],","," ","1",","," ","2"}],"}"}],","," ",RowBox[{"{",RowBox[{RowBox[{"-","3"}],","," ","4",","," ",RowBox[
+{"-","4"}],","," ","1"}],"}"}],","," ",RowBox[{"{",RowBox[{RowBox[{"-","2"}],","," ","9",","," ",RowBox[
+{"-","9"}],","," ","0"}],"}"}]}],"}"}]}],";"," ",RowBox[{"A"," ","//"," ","MatrixForm"," "}]}]],
+"Input",CellLabel -> "In[26]:= ",ExpressionUUID -> "fcbbdd8c-51e2-455b-add8-a1c8b2d1ac54"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"2",RowBox[{"-","3"}],"1","2"},{RowBox[
+{"-","3"}],"4",RowBox[{"-","4"}],"1"},{RowBox[{"-","2"}],"9",RowBox[{"-","9"}],"0"}},
+RowSpacings -> 1,ColumnSpacings -> 1,RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[26]//MatrixForm= ",
+ExpressionUUID -> "bb0d77d9-928a-46ac-a7a8-88047c863a1f"]},Open],ExpressionUUID -> "b02be1e0-05e8-44e7-9c4a-7c4c08dc9177"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"A","[",RowBox[{"[","2","]"}],"]"}]],"Input",CellLabel -> "In[27]:= ",
+ExpressionUUID -> "c321effb-f125-4a32-a2cb-329a3aea7ad6"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{RowBox[{"-","3"}],",","4",",",RowBox[{"-","4"}],",","1"}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[27]= ",ExpressionUUID -> "d579a601-8b38-4d59-907e-be2f550e1f36"]},
+Open],ExpressionUUID -> "8dfae329-6ede-446f-a899-a1ef0ac52bb3"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{RowBox[{"A","[",RowBox[{"[","2","]"}],"]"}]," ","="," ",RowBox[
+{RowBox[{RowBox[{"3","/","2"}]," ","*"," ",RowBox[{"A","[",RowBox[{"[","1","]"}],"]"}]}]," ","+"," ",RowBox[
+{"A","[",RowBox[{"[","2","]"}],"]"}]}]}],";"," ",RowBox[{"A"," ","//"," ","MatrixForm"," "}]}]],
+"Input",CellLabel -> "In[28]:= ",ExpressionUUID -> "24d3efb3-bcad-46e8-83a3-cb68088fefac"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"2",RowBox[{"-","3"}],"1","2"},{"0",RowBox[
+{"-",FractionBox["1","2"]}],RowBox[{"-",FractionBox["5","2"]}],"4"},{RowBox[{"-","2"}],"9",RowBox[
+{"-","9"}],"0"}},RowSpacings -> 1,ColumnSpacings -> 1,RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[28]//MatrixForm= ",
+ExpressionUUID -> "77ad585b-fa15-4856-8a41-25b01075c30b"]},Open],ExpressionUUID -> "cbc55963-c406-4b73-8959-7ab7cedead2f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{RowBox[{"A","[",RowBox[{"[","3","]"}],"]"}]," ","="," ",RowBox[
+{RowBox[{"1"," ","*"," ",RowBox[{"A","[",RowBox[{"[","1","]"}],"]"}]}]," ","+"," ",RowBox[
+{"A","[",RowBox[{"[","3","]"}],"]"}]}]}],";"," ",RowBox[{"A"," ","//"," ","MatrixForm"," "}]}]],
+"Input",CellLabel -> "In[29]:= ",ExpressionUUID -> "230777fb-2134-448b-862f-54c380164b6b"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"2",RowBox[{"-","3"}],"1","2"},{"0",RowBox[
+{"-",FractionBox["1","2"]}],RowBox[{"-",FractionBox["5","2"]}],"4"},{"0","6",RowBox[
+{"-","8"}],"2"}},RowSpacings -> 1,ColumnSpacings -> 1,RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[29]//MatrixForm= ",
+ExpressionUUID -> "28594f71-b603-418e-a265-2142112da262"]},Open],ExpressionUUID -> "72e20651-df66-48eb-843e-7a2d88c54922"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{RowBox[{"A","[",RowBox[{"[","1","]"}],"]"}],"=",RowBox[
+{RowBox[{"1","/","2"}],"*",RowBox[{"A","[",RowBox[{"[","1","]"}],"]"}]}]}],";",RowBox[
+{"A","//","MatrixForm"}]}]],"Input",CellLabel -> "In[30]:= ",ExpressionUUID -> "5959c8fa-6596-44ac-a7ad-4f2b92ce868b"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"1",RowBox[{"-",FractionBox["3","2"]}],FractionBox[
+"1","2"],"1"},{"0",RowBox[{"-",FractionBox["1","2"]}],RowBox[{"-",FractionBox["5",
+"2"]}],"4"},{"0","6",RowBox[{"-","8"}],"2"}},RowSpacings -> 1,ColumnSpacings -> 1,
+RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],Function[
+BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[30]//MatrixForm= ",
+ExpressionUUID -> "d79c45c5-615f-4bc8-9098-3c3d2e2603a5"]},Open],ExpressionUUID -> "d0ba37d5-0f2a-4178-bbbe-766ff09de39d"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{RowBox[{"A","[",RowBox[{"[","2","]"}],"]"}],"=",RowBox[
+{RowBox[{"-","2"}],"*",RowBox[{"A","[",RowBox[{"[","2","]"}],"]"}]}]}],";",RowBox[
+{"A","//","MatrixForm"}]}]],"Input",CellLabel -> "In[31]:= ",ExpressionUUID -> "b51a828b-43e9-44e9-96f1-1c5c5c6e5072"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"1",RowBox[{"-",FractionBox["3","2"]}],FractionBox[
+"1","2"],"1"},{"0","1","5",RowBox[{"-","8"}]},{"0","6",RowBox[{"-","8"}],"2"}},RowSpacings -> 1,
+ColumnSpacings -> 1,RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[31]//MatrixForm= ",
+ExpressionUUID -> "a00fd96a-5e6d-4b8e-96ac-62553db28224"]},Open],ExpressionUUID -> "7000bb72-de74-4a81-b14f-892c94392bce"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{RowBox[{"A","[",RowBox[{"[","3","]"}],"]"}],"=",RowBox[
+{RowBox[{RowBox[{"-","6"}],"*",RowBox[{"A","[",RowBox[{"[","2","]"}],"]"}]}],"+",RowBox[
+{"A","[",RowBox[{"[","3","]"}],"]"}]}]}],";",RowBox[{"A","//","MatrixForm"}]}]],"Input",
+CellLabel -> "In[32]:= ",ExpressionUUID -> "41b42df2-c6f5-4f59-805a-7b73970e66cf"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"1",RowBox[{"-",FractionBox["3","2"]}],FractionBox[
+"1","2"],"1"},{"0","1","5",RowBox[{"-","8"}]},{"0","0",RowBox[{"-","38"}],"50"}},
+RowSpacings -> 1,ColumnSpacings -> 1,RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[32]//MatrixForm= ",
+ExpressionUUID -> "dd511312-4eef-4468-9a59-a5e0fd07a558"]},Open],ExpressionUUID -> "c488f536-0146-4201-a141-9fe82fdcd303"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{RowBox[{"A","[",RowBox[{"[","3","]"}],"]"}],"=",RowBox[
+{RowBox[{RowBox[{"-","1"}],"/","38"}],"*",RowBox[{"A","[",RowBox[{"[","3","]"}],"]"}]}]}],";",RowBox[
+{"A","//","MatrixForm"}]}]],"Input",CellLabel -> "In[33]:= ",ExpressionUUID -> "7ab0c57e-32be-4c0e-9f1c-b7387330b431"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"1",RowBox[{"-",FractionBox["3","2"]}],FractionBox[
+"1","2"],"1"},{"0","1","5",RowBox[{"-","8"}]},{"0","0","1",RowBox[{"-",FractionBox[
+"25","19"]}]}},RowSpacings -> 1,ColumnSpacings -> 1,RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[33]//MatrixForm= ",
+ExpressionUUID -> "7ffeedb4-7c86-43b6-9958-3cb60fad45f8"]},Open],ExpressionUUID -> "1bea8a9f-134a-442d-9e2d-3eaea3c34126"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{RowBox[{"A","[",RowBox[{"[","2","]"}],"]"}],"=",RowBox[
+{RowBox[{RowBox[{"-","5"}],"*",RowBox[{"A","[",RowBox[{"[","3","]"}],"]"}]}],"+",RowBox[
+{"A","[",RowBox[{"[","2","]"}],"]"}]}]}],";",RowBox[{"A","//","MatrixForm"}]}]],"Input",
+CellLabel -> "In[34]:= ",ExpressionUUID -> "1618da14-1e10-4bb1-93a3-0162f12e1c67"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"1",RowBox[{"-",FractionBox["3","2"]}],FractionBox[
+"1","2"],"1"},{"0","1","0",RowBox[{"-",FractionBox["27","19"]}]},{"0","0","1",RowBox[
+{"-",FractionBox["25","19"]}]}},RowSpacings -> 1,ColumnSpacings -> 1,RowAlignments -> Baseline,
+ColumnAlignments -> Center],"\[NoBreak]",")"}],Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],
+StandardForm],"Output",CellLabel -> "Out[34]//MatrixForm= ",ExpressionUUID -> "58a969c4-c861-4d7d-982e-6eb4179a4a22"]},
+Open],ExpressionUUID -> "b18e645a-49bc-4f93-ad97-ec7800cf2daa"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{RowBox[{"A","[",RowBox[{"[","1","]"}],"]"}],"=",RowBox[
+{RowBox[{RowBox[{"3","/","2"}],"*",RowBox[{"A","[",RowBox[{"[","2","]"}],"]"}]}],"+",RowBox[
+{"A","[",RowBox[{"[","1","]"}],"]"}]}]}],";",RowBox[{"A","//","MatrixForm"}]}]],"Input",
+CellLabel -> "In[35]:= ",ExpressionUUID -> "322971ae-ab36-43ad-bcf6-8465af21e1ca"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"1","0",FractionBox["1","2"],RowBox[{"-",FractionBox[
+"43","38"]}]},{"0","1","0",RowBox[{"-",FractionBox["27","19"]}]},{"0","0","1",RowBox[
+{"-",FractionBox["25","19"]}]}},RowSpacings -> 1,ColumnSpacings -> 1,RowAlignments -> Baseline,
+ColumnAlignments -> Center],"\[NoBreak]",")"}],Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],
+StandardForm],"Output",CellLabel -> "Out[35]//MatrixForm= ",ExpressionUUID -> "33ad4c40-8253-435b-8d18-8db477932c17"]},
+Open],ExpressionUUID -> "cc5807df-05d9-473a-83d6-32aafa6db8cf"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{RowBox[{"A","[",RowBox[{"[","1","]"}],"]"}],"=",RowBox[
+{RowBox[{RowBox[{RowBox[{"-","1"}],"/","2"}],"*",RowBox[{"A","[",RowBox[{"[","3","]"}],"]"}]}],"+",RowBox[
+{"A","[",RowBox[{"[","1","]"}],"]"}]}]}],";",RowBox[{"A","//","MatrixForm"}]}]],"Input",
+CellLabel -> "In[36]:= ",ExpressionUUID -> "193da0f5-4ba5-4d58-82ed-f40513c93c6d"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"1","0","0",RowBox[{"-",FractionBox["9",
+"19"]}]},{"0","1","0",RowBox[{"-",FractionBox["27","19"]}]},{"0","0","1",RowBox[{"-",FractionBox[
+"25","19"]}]}},RowSpacings -> 1,ColumnSpacings -> 1,RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[36]//MatrixForm= ",
+ExpressionUUID -> "4c5d48bf-6788-4325-a7d6-20b66b55409f"]},Open],ExpressionUUID -> "826f1c32-e167-4658-9888-4a8354b7603f"],Cell[
+BoxData[
+{RowBox[{"maka"," ",RowBox[{"diperoleh"," ",":"}]}],"\n",RowBox[{"x1"," ","="," ",RowBox[
+{RowBox[{"-","9"}],"/","19"}]}],"\n",RowBox[{"x2","=",RowBox[{RowBox[{"-","27"}],"/","19"}]}],"\n",RowBox[
+{"x3","=",RowBox[{RowBox[{"-","25"}],"/","19"}]}]}],"Input",ExpressionUUID -> "56b3d604-d23a-448d-b89a-a7788ce3589b"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "12.1 for Wolfram Cloud 1.56 (September 30, 2020)"]
